@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Formulario</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Proyecto Formularios</h1>
+    <div class="club">
+
+        <form action="enviar.php" method="get" novalidate>
+            <fieldset>
+                <legend>El club viejuner</legend>
+           
+            <label>
+                First Name:
+                <input type="text" name="name" id="name" placeholder="Entre your name">
+            </label>
+            <label>
+                 Surname:
+                <input type="text" name="surname" id="surname" placeholder="Enter your surname">
+            </label>
+            <br>
+            <label>
+                Age:
+                <input type="number" name="age" id="age" placeholder="Enter your age">
+            </label>
+            <label >
+                Gender:
+                <input type="radio" name="gender" id="male" value="male">Male
+                <input type="radio" name="gender" id="female" value="female">Female
+                <input type="radio" name="gender" id="other" value="other">Other
+            </label>
+            <br>
+            <label>
+                Email : 
+                <input type="email" name="email" id="email" placeholder="user@dominio.com">
+            </label>
+            <label>
+                Telefono:
+                <input type="number" name="phone" id="phone" placeholder="(xx) xxx-xxx-xxx">
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="condition" id="condition">
+                Me siento Viejenur
+            </label>
+            <br>
+            <textarea name="profile" id="profile" cols="30" rows="10"placeholder="Into yourself"></textarea>
+            <br>
+            <input type="submit" value="submit">
+            </fieldset>
+        </form>
+
+    </div>
+
+    <hr>
+
+    <div class="cup">
+       
+           
+        <form action="enviar.php" method="get" novalidate>
+         <fieldset>
+             <legend>Los ladronzuelos de bicicletas</legend>
+            <label>
+                Date:
+                <input type="date" name="date" id="date">
+            </label>
+            <label>
+                Time:
+                <input type="time" name="time" id="time">
+            </label>
+            <label>
+                Cycle's color:
+                <input type="color" name="colorCycle" id="colorCycle">
+            </label>
+            <label>
+                Price:
+                <input type="range" name="price" id="price" min="0" max="5000" step="100" value="500">
+            </label>
+            <br>
+            
+            <label>Type of cicle's:
+          <select id="cycletype" name="cycletype">
+            <optgroup label="Paseo">
+              <option value="señorial">Señorial</option>
+              <option value="anti-plebeyos">Anti-plebeyos</option>
+              <option value="por-encima-del-hombro">PorEncimaDelHombro</option>
+            </optgroup>
+            <optgroup label="Montaña">
+              <option value="gamusinos">Gamusinos</option>
+              <option value="hueleflores-premium">Hueleflores premium</option>
+              <option value="fango-lover">Fango lover</option>
+            </optgroup>
+            <optgroup label="Carreras">
+              <option value="metro-y-medio">Metroymedio</option>
+              <option value="3-de-la-tarde-fluorescente-edition">3 de la tarde. Fluorescente edition</option>
+              <option value="grupitors">Grupitors</option>
+            </optgroup>
+          </select>
+        </label>
+
+
+        <label for="accesorios">Accesorios:</label>
+        <select id="accesorios" name="accesorios" multiple>
+          <option value="ruedines">Ruedines</option>
+          <option value="pegatinas">Pegatinas</option>
+          <option value="cestita">Cestita</option>
+          <option value="bomba-de-aire">Bomba de aire</option>
+          <option value="timbre">Timbre</option>
+          <option value="foco">Foco</option>
+        </select>
+    
+        <label>Model:
+        <select id="model" name="model" >
+          <option value="specialized">Specialized</option>
+          <option value="trek">Trek</option>
+          <option value="merida">Merida</option>
+          <option value="scott">Scott</option>
+          <option value="giant">Giant</option>
+          <option value="cube">Cube</option>
+          <option value="lapierre">Lapierre</option>
+          <option value="orbea">Orbea</option>
+          <option value="cannondale">Cannondale</option>
+          <option value="bmc">BMC</option>
+          <option value="canyon">Canyon</option>
+          <option value="look">Look</option>
+          <option value="protek">Protek</option>
+          <option value="megamo">Megamo</option>
+          <option value="pinarello">Pinarello</option>
+          <option value="bianchi">Bianchi</option>
+          <option value="bh">BH</option>
+          <option value="factor">Factor</option>
+          <option value="ghost">Ghost</option>
+          <option value="cervelo">Cervélo</option>
+          <option value="argon">Argon</option>
+        </select>
+        </label>
+        <input type="submit" value="submit">
+
+         </fieldset>
+
+
+
+           
+        
+
+                
+
+          
+
+
+        </form>
+    </div>
+
+    <hr>
+
+    
+      
+</body>
+</html>
