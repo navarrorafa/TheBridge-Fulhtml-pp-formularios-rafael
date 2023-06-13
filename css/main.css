@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 240, 231);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+h1 {
+    text-align: center;
+    padding: 3%;    
+    color:  #1d415c;
+    
+    
+}
+fieldset {
+    border-radius: 2%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+legend {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0% 1%;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    
+
+    
+}
+
+  
+  form {
+    font-size: 1rem;
+    margin: 2%;
+    
+  }
+
+  input, textarea , select {
+    border-radius: 10px;
+    padding : 4px;
+    margin: 2% 0;
+   
+  }
+  select {
+    width: 100%;
+    
+  }
+
+textarea {
+    width: 100%;
+   
+
+}
+
+button {
+    padding: 0.5rem 1rem;  
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin: 1% 1%;
+    background-color: #1d415c;
+    color: white;
+    cursor: pointer;
+    transition:  0.3s ease;
+  }  
+  
+  button:hover {
+    background-color: #61849f;  
+  }  
+
+  hr {
+    margin: 5% 0%;
+  }
+
